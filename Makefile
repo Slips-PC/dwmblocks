@@ -14,5 +14,6 @@ install: output
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	install -m 0755 dwmblocks $(DESTDIR)$(PREFIX)/bin/dwmblocks
 	install -m 0755 sb-volume $(DESTDIR)$(PREFIX)/bin/sb-volume
+	install -m 0755 sb-temp $(DESTDIR)$(PREFIX)/bin/sb-temp
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks

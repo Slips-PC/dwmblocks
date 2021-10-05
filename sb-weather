@@ -1,0 +1,4 @@
+#!/bin/sh
+
+weather="${curl 'wttr.in/Belton?format=2'}"
+echo $weather
